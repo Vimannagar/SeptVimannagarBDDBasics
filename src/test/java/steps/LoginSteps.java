@@ -32,6 +32,21 @@ public class LoginSteps {
 	}
 
 	
+	@When("User enters the incorrect username")
+	public void user_enters_the_incorrect_username() {
+	   System.out.println("first when for incorrect username");
+	}
+
+	@When("User enters the incorrect password")
+	public void user_enters_the_incorrect_password() {
+		System.out.println("Second when for incorrect password");
+	}
+
+	@Then("User should stay at the same screen")
+	public void user_should_stay_at_the_same_screen() {
+	   System.out.println("Then for user at same screen");
+	}
+	
 	
 	
 	
