@@ -5,10 +5,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginSteps {
-
 	@Given("User is at the login screen")
 	public void user_is_at_the_login_screen() {
-	   System.out.println("Given statement");
+		System.out.println("Given statement");
 	}
 
 	@When("User enters the username")
@@ -31,10 +30,9 @@ public class LoginSteps {
 		System.out.println(" Then statement");
 	}
 
-	
 	@When("User enters the incorrect username")
 	public void user_enters_the_incorrect_username() {
-	   System.out.println("first when for incorrect username");
+		System.out.println("first when for incorrect username");
 	}
 
 	@When("User enters the incorrect password")
@@ -44,10 +42,7 @@ public class LoginSteps {
 
 	@Then("User should stay at the same screen")
 	public void user_should_stay_at_the_same_screen() {
-	   System.out.println("Then for user at same screen");
+		System.out.println("Then for user at same screen");
 	}
-	
-	
-	
-	
+
 }
