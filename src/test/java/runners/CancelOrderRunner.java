@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		glue = {"steps"},
 		
-		tags = "@history and @alreadydispatched"
+		tags = "not @history "
 				
 		)
 

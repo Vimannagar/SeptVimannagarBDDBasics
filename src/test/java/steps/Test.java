@@ -9,19 +9,11 @@ public class Test {
 	public static void main(String[] args) {
 		
 		
-		List<String> al = new ArrayList<String>();
+		String s = "pune";
 		
-		al.add("Pune");
-		al.add("Mumbai");
-		al.add("Hyderabad");
-		al.add("Bengaluru");
+		boolean ispresent = s.contains("up");
 		
-		
-		System.out.println(al);
-		
-		String valueat0 = al.get(0);
-		
-		System.out.println(valueat0);
+		System.out.println(ispresent);
 	}
 
 }

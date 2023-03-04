@@ -1,40 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-27T21:49:33 IST" name="Default suite" finished-at="2023-02-27T21:49:38 IST" duration-ms="4548">
+  <suite started-at="2023-03-04T21:08:48 IST" name="Default suite" finished-at="2023-03-04T21:09:46 IST" duration-ms="58141">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CancelOrderRunner@7d0b7e3c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:execution.RunAmazonTest@7d0b7e3c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-02-27T21:49:33 IST" name="Default test" finished-at="2023-02-27T21:49:38 IST" duration-ms="4548">
-      <class name="runners.CancelOrderRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.CancelOrderRunner@7d0b7e3c]" started-at="2023-02-27T21:49:33 IST" name="setUpClass" finished-at="2023-02-27T21:49:35 IST" duration-ms="1234" status="PASS">
+    <test started-at="2023-03-04T21:08:48 IST" name="Default test" finished-at="2023-03-04T21:09:46 IST" duration-ms="58141">
+      <class name="execution.RunAmazonTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:execution.RunAmazonTest@7d0b7e3c]" started-at="2023-03-04T21:08:48 IST" name="setUpClass" finished-at="2023-03-04T21:08:50 IST" duration-ms="1854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CancelOrderRunner@7d0b7e3c]" started-at="2023-02-27T21:49:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T21:49:35 IST" duration-ms="470" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:execution.RunAmazonTest@7d0b7e3c]" started-at="2023-03-04T21:08:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T21:09:16 IST" duration-ms="26134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["To check the cancelled history"]]>
+                <![CDATA["Login page title"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Cancel order functionality]"]]>
+                <![CDATA["Optional[Login functionality]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.CancelOrderRunner@7d0b7e3c]" started-at="2023-02-27T21:49:35 IST" name="tearDownClass" finished-at="2023-02-27T21:49:38 IST" duration-ms="2712" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:execution.RunAmazonTest@7d0b7e3c]" started-at="2023-03-04T21:09:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T21:09:28 IST" duration-ms="12436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify cart icon is displaying"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:execution.RunAmazonTest@7d0b7e3c]" started-at="2023-03-04T21:09:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T21:09:43 IST" duration-ms="15034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:execution.RunAmazonTest@7d0b7e3c]" started-at="2023-03-04T21:09:43 IST" name="tearDownClass" finished-at="2023-03-04T21:09:46 IST" duration-ms="2467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.CancelOrderRunner -->
+      </class> <!-- execution.RunAmazonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
