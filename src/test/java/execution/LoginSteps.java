@@ -8,15 +8,16 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.LoginPage;
 import qa.DriverFactory;
+import qa.DriverFactory2;
 
 public class LoginSteps {
 
-	LoginPage loginpage = new LoginPage(DriverFactory.getDriver());
+	LoginPage loginpage = new LoginPage(DriverFactory2.getDriver());
 	
 	static String title ;
 	@Given("user is at the landing page")
 	public void user_is_at_the_landing_page() {
-		WebDriver driver = DriverFactory.getDriver();
+		WebDriver driver = DriverFactory2.getDriver();
 		
 		driver.get("https://www.amazon.in/");
 	}

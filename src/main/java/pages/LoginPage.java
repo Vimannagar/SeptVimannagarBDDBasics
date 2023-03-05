@@ -14,7 +14,7 @@ public class LoginPage {
 	@FindBy(xpath = "//*[@id='nav-flyout-ya-signin']//a[@class='nav-action-button']")
 	WebElement   signinbutton;
 	
-	@FindBy(xpath = "//*[@id='nav-cart']")
+	@FindBy(xpath = "//*[@id='nav-cart123']")
 	WebElement   carticon;
 		
 	@FindBy(xpath = "//*[@id='ap_email']")
